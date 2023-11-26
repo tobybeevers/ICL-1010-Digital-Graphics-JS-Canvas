@@ -1,8 +1,54 @@
-html, body {
+/* Use KevinPowell on YouTube https://www.youtube.com/playlist?list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT- */
+
+
+html, canvas {
+  display: block;
+}
+
+body {
+  /* By adding the CSS styling at the body it will apply/inherit  */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.5;
+  color: crimson;
+
   margin: 0;
   padding: 0;
 }
 
-canvas {
-  display: block;
+.container {
+  width: 75%;
+  margin: auto;
+  height: 100px;
+  background-color: rgb(0,204, 255, 255);
+  /* This is setting the container height  */
+  height: 200px;
+  
+}
+h1 {
+  /*You can then customise the other Headers/Para to overide te styling*/
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  /* text-decoration: none; This is used to remove or add underlining as required for links etc */
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+}
+ p{
+  margin: auto;
+  text-align: center;
+
+ }
+script {
+  align-content: top;
+  margin-top: auto;
+  width: 50%;
+ 
 }
